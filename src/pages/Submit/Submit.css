@@ -1,0 +1,25 @@
+.submit-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+.submit-header,.submit-body,.submit-footer{
+    padding: 20px;
+    /* background-color: antiquewhite; */
+}
+.submit-header{
+    text-align: left;
+}
+.submit-body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 100px;
+    align-items: center;
+}
+.submit-footer{
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+}
