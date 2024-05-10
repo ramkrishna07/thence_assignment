@@ -1,0 +1,36 @@
+.accordions {
+    /* border: 1px solid #ccc; */
+    border: none;
+    border-radius: 4px;
+    padding: 20px 50px;
+  }
+  
+  .accordions-item {
+    border-bottom: 1px solid rgb(154, 154, 154);
+    padding: 10px 20px;
+  }
+  
+  .accordions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(170, 178, 154)
+  }
+  
+  .accordions-header.active {
+    /* background-color: rgb(170, 178, 154) */
+  }
+  
+  .accordions-body {
+      font-size: 12px;
+    padding: 10px;
+    background-color: rgb(170, 178, 154)
+  }
+  
+  .accordions-icon {
+      font-size: 20px;
+    margin-left: 10px;
+  }
+  

@@ -35,13 +35,13 @@ const Submit = () => {
                 <CheckCircleIcon color='success' fontSize='large'/>
                 </div>
             <div>
-                <span style={{color:'green'}}>success submitted</span>
+                <span style={{color:'#00d676'}}>success submitted</span>
             </div>
             <div>
                 <span style={{fontSize:'25px'}}>Congratulations</span>
             </div>
-            <div style={{width:'400px'}}>
-                <span style={{textAlign:'left'}}>Your request has been successfully submitted to us. We will validate your information and reach out to you shortly with updates</span>
+            <div className='submit-body-text'>
+                <span>Your request has been successfully submitted to us. We will validate your information and reach out to you shortly with updates</span>
             </div>
 
         </div>

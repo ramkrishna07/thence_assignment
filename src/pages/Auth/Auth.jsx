@@ -64,7 +64,7 @@ const Auth = () => {
             </div>
         </div>
         <div className='auth-body'> 
-            <span style={{fontSize:'20px',color:'green'}}>Registration Form</span>
+            <span style={{fontSize:'20px',color:'#00d676'}}>Registration Form</span>
             <span>Start your success</span>
             <span>journey here!</span>
             {/* <div className='auth-form'> */}

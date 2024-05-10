@@ -157,7 +157,12 @@
     gap: 65px;
     /* padding-left: 200px; */
 }
-
+.carousel-content{
+    display:flex;
+    width:100%;
+    height:50%;
+    justify-content:center;
+}
 .explore{
     display: flex;
     width: 100%;
@@ -199,11 +204,14 @@
     width: 50%;
     overflow-y: scroll;
     padding-top: 50px;
-    background-color: #aab29a;
+    /* background-color: rgb(170, 178, 154); */
 }
-.accordion-item{
-    background-color: #aab29a;
+::-webkit-scrollbar {
+    width: 5px;
 }
+/* .accordion-item{
+    background-color: #aab29a;
+} */
 
 /* Footer part*/
 .footer{
@@ -249,14 +257,97 @@
 @media only screen and (max-width: 820px) {
     .body{
         flex-direction: column;
-        height: 1000px;
+        height: 900px;
         align-items: center;
-        gap: 150px;
+        gap: 100px;
     }
     .img-container{
         width: 100%;
     }
     .carousel-container{
+        width: 80%;
+    }
+    .carousel-content{
+        height: 60%;
+    }
+    .qsn-container{
+        width: 60%;
+    }
+    .faq-title{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 570px) {
+   .header-right{
+       width: 60%;
+   }
+   .img-container{
+        width: 110%;
+    }
+    .carousel-container{
+        width: 90%;
+    }
+    .faq{
+        flex-direction: column;
+        /* padding-bottom: 20px; */
+    }
+    .faq-title,.qsn-container{
+        width: 100%;
+    }
+    .faq-title{
+        padding-bottom: 10px;
+        padding-left: 80px;
+    }
+    .qsn-container{
+        padding-top: 0;
+    }
+    .accordions{
+        padding: 0px 20px 10px 20px;
+    }
+    .terms{
+        padding-left: 20px;
+    }
+    .list-container{
+        padding-right: 20px;
+    }
+}
+@media only screen and (max-width: 470px) {
+   .header-right{
+       width: 70%;
+   }
+   .header-left{
+       font-size: 20px;
+   }
+   .projects,.talent{
+       width: 100px;
+   }
+   .img-container{
+        width: 125%;
+   }
+   .box2,.box3{
+        width: 240px;
+   }
+   
+}
+@media only screen and (max-width: 398px) {
+    .box2{
+        top: 110%;
+    }
+    .box3{
+        width: 260px;
+        height: 130px;
+        overflow: hidden;
+        top: 115%;
+    }
+    .terms,.list-container{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 383px) {
+    .box2,.box3{
+        width: 280px;
+    }
+    .header-right{
         width: 80%;
     }
 }

@@ -17,9 +17,26 @@
     gap: 10px;
     padding: 10px 100px;
     align-items: center;
+    text-align: center;
+}
+.submit-body-text{
+    padding: 0px 100px;
 }
 .submit-footer{
     margin-top: 190px;
     display: flex;
     justify-content: center;
+}
+@media only screen and (max-width: 700px) {
+    .submit-body-text{
+        padding: 0px 50px;
+    }
+    .submit-footer{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .submit-body-text{
+        padding: 0px;
+    }
 }
