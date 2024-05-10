@@ -42,6 +42,7 @@
     font-size: 12px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .projects{
     background-color: white;
@@ -179,6 +180,7 @@
     left: 15%;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .explore-btn:hover{
     background-color: rgb(74, 73, 73);
@@ -191,7 +193,8 @@
     height: 500px;
     display: flex;
     border-radius: 25px;
-    background-color: rgb(170, 178, 154);
+    background-color: rgba(192, 203, 173,0.562);
+
 }
 .faq-title{
     width: 50%;

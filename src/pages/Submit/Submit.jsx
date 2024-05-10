@@ -28,14 +28,14 @@ const Submit = () => {
   return (
     <div className='submit-container'>
         <div className='submit-header'>
-            <span style={{fontSize:'30px'}}>Brunel</span>
+            <span style={{fontSize:'30px',fontFamily:'Emblema One'}}>Brunel</span>
         </div>
         <div className='submit-body'>
             <div>
                 <CheckCircleIcon color='success' fontSize='large'/>
                 </div>
             <div>
-                <span style={{color:'#00d676'}}>success submitted</span>
+                <span style={{color:'#00d676',fontFamily:'Pacifico'}}>success submitted</span>
             </div>
             <div>
                 <span style={{fontSize:'25px'}}>Congratulations</span>

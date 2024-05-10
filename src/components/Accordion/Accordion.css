@@ -16,21 +16,23 @@
     align-items: center;
     padding: 10px;
     cursor: pointer;
-    background-color: rgb(170, 178, 154)
   }
   
-  .accordions-header.active {
-    /* background-color: rgb(170, 178, 154) */
+  .accordions-item.active {
+    transition: max-height 2s ease-out;
   }
   
   .accordions-body {
       font-size: 12px;
     padding: 10px;
-    background-color: rgb(170, 178, 154)
+    transition: max-height 2s ease-out;
   }
   
   .accordions-icon {
       font-size: 20px;
     margin-left: 10px;
+  }
+  .accordion-item.active .accordion-body {
+    max-height: 200px;
   }
   

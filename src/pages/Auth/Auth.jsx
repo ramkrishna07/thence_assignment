@@ -55,7 +55,7 @@ const Auth = () => {
     <div className='auth-container'>
         <div className='auth-header'>
             <div className='auth-header-brand'>
-                <span style={{fontSize:'30px'}}>Brunel</span>
+                <span style={{fontSize:'30px',fontFamily:'Emblema One'}}>Brunel</span>
             </div>
             <div className='auth-header-cross-btn'>
                 <span>
@@ -64,7 +64,7 @@ const Auth = () => {
             </div>
         </div>
         <div className='auth-body'> 
-            <span style={{fontSize:'20px',color:'#00d676'}}>Registration Form</span>
+            <span style={{fontSize:'20px',color:'#00d676',fontFamily:'Pacifico'}}>Registration Form</span>
             <span>Start your success</span>
             <span>journey here!</span>
             {/* <div className='auth-form'> */}

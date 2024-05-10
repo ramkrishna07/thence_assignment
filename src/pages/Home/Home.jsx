@@ -2,10 +2,10 @@ import React from 'react';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import img from "../../img/bg.png";
-import  Accordion from "../Accordion/Accordion"
+import  Accordion from "../../components/Accordion/Accordion"
 // import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from '../Carousel/Carousel';
+import { Carousel } from '../../components/Carousel/Carousel';
 import {slides} from '../../data/carouselData';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
@@ -39,7 +39,7 @@ const Home = () => {
     <div className='main-container'>
         <div className='header'>
             <div className='header-left'>
-                <span>Brunel</span>
+                <span style={{fontFamily:'Emblema One'}}>Brunel</span>
             </div>
             <div className='header-right'>
                 <Link to="./auth" style={{textDecoration:'none'}}>
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
         </div>
         <div className='campaign'>
-            <span style={{color:'#00d676',paddingBottom:'5px',fontSize:'20px'}}>Success Stories</span>
+            <span style={{color:'#00d676',paddingBottom:'5px',fontSize:'20px',fontFamily:'Pacifico'}}>Success Stories</span>
             <span>Every success journey</span>
             <span>we've encountered</span>
         </div>
