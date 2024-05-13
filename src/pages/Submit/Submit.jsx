@@ -2,7 +2,14 @@ import React, {useState,useEffect} from 'react'
 import "./Submit.css"
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { useNavigate } from 'react-router-dom';
-
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+const theme = createTheme({
+  palette: {
+    green:{
+      main:'#00d676',
+    }
+  },
+});
 const Submit = () => {
 
     const navigate = useNavigate();
@@ -26,13 +33,14 @@ const Submit = () => {
         };
       }, [navigate]);
   return (
+    <ThemeProvider theme={theme}>
     <div className='submit-container'>
         <div className='submit-header'>
             <span style={{fontSize:'30px',fontFamily:'Emblema One'}}>Brunel</span>
         </div>
         <div className='submit-body'>
             <div>
-                <CheckCircleIcon color='success' fontSize='large'/>
+                <CheckCircleIcon color='green' fontSize='large'/>
                 </div>
             <div>
                 <span style={{color:'#00d676',fontFamily:'Pacifico'}}>success submitted</span>
@@ -49,6 +57,7 @@ const Submit = () => {
             <span>Redirecting you to Homepage in <span style={{fontWeight:'bold'}}> {countdown} seconds</span></span>
         </div>
     </div>
+    </ThemeProvider>
   )
 }
 
